@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="g295" format="1">
+  <advance width="582"/>
+  <outline>
+    <contour>
+      <point x="262" y="112" type="line"/>
+      <point x="307" y="29" type="line"/>
+      <point x="466" y="128" type="line"/>
+      <point x="466" y="236" type="line"/>
+    </contour>
+    <contour>
+      <point x="316" y="446" type="line"/>
+      <point x="316" y="366" type="line"/>
+      <point x="392" y="366" type="line"/>
+      <point x="392" y="446" type="line"/>
+    </contour>
+    <component base="uni091C_uni094D_uni091E_uni094D"/>
+    <component base="uni093E" xOffset="320"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>4</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

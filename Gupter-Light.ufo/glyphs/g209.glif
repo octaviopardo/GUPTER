@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="g209" format="1">
+  <advance width="523"/>
+  <outline>
+    <contour>
+      <point x="81" y="80" type="line"/>
+      <point x="135" y="40" type="line"/>
+      <point x="270" y="248" type="line"/>
+      <point x="226" y="282" type="line"/>
+    </contour>
+    <component base="uni092B"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ColorIndex</key>
+      <integer>1</integer>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>
