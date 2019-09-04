@@ -1,147 +1,0 @@
-# Prefix: Languagesystems
-# automatic
-languagesystem DFLT dflt;
-languagesystem dev2 dflt;
-languagesystem latn dflt;
-
-# automatic
-@Uppercase = [ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Scaron OE Ydieresis Agrave Aacute Acircumflex Atilde Adieresis Aring AE Ccedilla Egrave Eacute Ecircumflex Edieresis Igrave Iacute Icircumflex Idieresis Eth Ntilde Ograve Oacute Ocircumflex Otilde Odieresis Oslash Ugrave Uacute Ucircumflex Udieresis Yacute Thorn Lslash Zcaron ];
-
-@abvs1 = [ uni090A uni090B uni0915 uni092B uni0958 uni095E uni0960 g135 g201 g209 g217 g218 g219 g220 g257 ];
-
-@abvs2 = [ uni0901 uni0902 uni0945 uni0946 uni0947 uni0948 uni0951 uni1CDA uni0947_uni0902 uni0947_uni0930_uni094D uni0947_uni0930_uni094D_uni0902 uni0948_uni0902 uni0948_uni0930_uni094D uni0948_uni0930_uni094D_uni0902 uni0930_uni094D uni0930_uni094D_uni0902 ];
-
-@blws1 = [ uni0941 uni0942 uni0943 uni0944 g133 g193 g194 ];
-
-@blws2 = [ uni0919 uni091B uni091F uni0920 uni0921 uni0922 uni0933 g263 g264 ];
-
-@blws3 = [ uni0941 uni0942 uni0943 uni0944 uni094D uni0962 uni0963 g133 g193 g194 ];
-
-@blws4 = [ uni090B uni0915 uni092B uni0958 uni095E uni0960 g135 g201 g209 g217 g218 g220 ];
-
-@blws5 = [ uni0926 g207 g215 g244 g245 g246 g247 g248 g249 g250 g253 g265 g266 g269 g270 ];
-
-@blws6 = [ uni095C uni095D g217 g219 g220 g222 g223 g224 g225 g226 g227 g229 g233 g234 g236 g237 g239 g240 g242 g256 g257 g258 ];
-
-@class25 = [ uni0901.abvs uni0902.abvs uni0945.abvs uni0946.abvs uni0947.abvs uni0948.abvs uni0951.abvs uni1CDA.abvs uni0947_uni0902.abvs uni0947_uni0930_uni094D.abvs uni0947_uni0930_uni094D_uni0902.abvs uni0948_uni0902.abvs uni0948_uni0930_uni094D.abvs uni0948_uni0930_uni094D_uni0902.abvs uni0930_uni094D.abvs uni0930_uni094D_uni0902.abvs ];
-
-@class29 = [ uni0941.blws uni0942.blws uni0943.blws uni0944.blws uni094D.blws uni0962.blws uni0963.blws g325 g323 g324 ];
-
-@pres1 = [ uni091F uni0920 uni0922 uni0926 uni0930 uni0931 uni095D g244 g246 ];
-
-@pres2 = [ uni090B uni0915 uni092B uni0958 uni095E uni0960 g135 g201 g209 g217 g218 g219 g220 g257 ];
-
-@pres3 = [ uni0915_uni094D uni0916_uni094D uni0917_uni094D uni0918_uni094D uni0919_uni094D uni091A_uni094D uni091B_uni094D uni091C_uni094D uni091D_uni094D uni091E_uni094D uni091F_uni094D uni0920_uni094D uni0921_uni094D uni0922_uni094D uni0923_uni094D uni0924_uni094D uni0925_uni094D uni0926_uni094D uni0927_uni094D uni0928_uni094D uni0929_uni094D uni092A_uni094D uni092B_uni094D uni092C_uni094D uni092D_uni094D uni092E_uni094D uni092F_uni094D uni0932_uni094D uni0933_uni094D uni0934_uni094D uni0935_uni094D uni0936_uni094D uni0937_uni094D uni0938_uni094D uni0939_uni094D uni0958_uni094D uni0959_uni094D uni095A_uni094D uni095B_uni094D uni095E_uni094D g181 g182 g183 uni0915_uni094D_uni0937_uni094D uni091C_uni094D_uni091E_uni094D ];
-
-@pres4 = [ uni0915 uni0916 uni0917 uni0918 uni0919 uni091A uni091B uni091C uni091D uni091E uni091F uni0920 uni0921 uni0922 uni0923 uni0924 uni0925 uni0926 uni0927 uni0928 uni0929 uni092A uni092B uni092C uni092D uni092E uni092F uni0930 uni0931 uni0932 uni0933 uni0934 uni0935 uni0936 uni0937 uni0938 uni0939 uni0958 uni0959 uni095A uni095B uni095C uni095D uni095E uni095F ];
-
-@psts1 = [ uni0915 uni0916 uni0917 uni0918 uni091A uni091C uni091D uni091E uni0923 uni0924 uni0925 uni0926 uni0927 uni0928 uni0929 uni092A uni092B uni092C uni092D uni092E uni092F uni0932 uni0935 uni0936 uni0937 uni0938 uni0939 ];
-
-feature aalt {
-# automatic
-feature frac;
-} aalt;
-
-feature abvs {
-script deva; # Devanagarilookup abvs6 {    sub uni0945 uni0902 by uni0901;} abvs6;lookup abvs17 {    sub uni0940 uni0930_uni094D by uni0940_uni0930_uni094D;    sub uni0947 uni0930_uni094D by uni0947_uni0930_uni094D;    sub uni0948 uni0930_uni094D by uni0948_uni0930_uni094D;    sub uni094B uni0930_uni094D by uni094B_uni0930_uni094D;    sub uni094C uni0930_uni094D by uni094C_uni0930_uni094D;    sub uni0940.pres uni0930_uni094D by uni0940.pres_uni0930_uni094D;} abvs17;lookup abvs18 {    sub uni0940 uni0902 by uni0940_uni0902;    sub uni0947 uni0902 by uni0947_uni0902;    sub uni0947 uni0930_uni094D_uni0902 by uni0947_uni0930_uni094D_uni0902;    sub uni0948 uni0902 by uni0948_uni0902;    sub uni0948 uni0930_uni094D_uni0902 by uni0948_uni0930_uni094D_uni0902;    sub uni094B uni0902 by uni094B_uni0902;    sub uni094B uni0930_uni094D_uni0902 by uni094B_uni0930_uni094D_uni0902;    sub uni094C uni0902 by uni094C_uni0902;    sub uni094C uni0930_uni094D_uni0902 by uni094C_uni0930_uni094D_uni0902;    sub uni0947_uni0930_uni094D uni0902 by uni0947_uni0930_uni094D_uni0902;    sub uni0948_uni0930_uni094D uni0902 by uni0948_uni0930_uni094D_uni0902;    sub uni0930_uni094D uni0902 by uni0930_uni094D_uni0902;    sub uni0940_uni0930_uni094D uni0902 by uni0940_uni0930_uni094D_uni0902;    sub uni0940.pres_uni0930_uni094D uni0902 by uni0940.pres_uni0930_uni094D_uni0902;    sub uni094B_uni0930_uni094D uni0902 by uni094B_uni0930_uni094D_uni0902;    sub uni094C_uni0930_uni094D uni0902 by uni094C_uni0930_uni094D_uni0902;} abvs18;lookup abvs19 {    sub uni0940 uni0930_uni094D_uni0902 by uni0940_uni0930_uni094D_uni0902;    sub uni0940 uni0902 by uni0940_uni0902;    sub uni0940 uni0930_uni094D by uni0940_uni0930_uni094D;    sub uni0940.pres uni0930_uni094D_uni0902 by uni0940.pres_uni0930_uni094D_uni0902;    sub uni0940.pres uni0902 by uni0940.pres_uni0902;    sub uni0940.pres uni0930_uni094D by uni0940.pres_uni0930_uni094D;} abvs19;lookup abvs24 {    sub @abvs1 @abvs2' by [uni0901.abvs uni0902.abvs uni0945.abvs uni0946.abvs uni0947.abvs uni0948.abvs uni0951.abvs uni1CDA.abvs uni0947_uni0902.abvs uni0947_uni0930_uni094D.abvs uni0947_uni0930_uni094D_uni0902.abvs uni0948_uni0902.abvs uni0948_uni0930_uni094D.abvs uni0948_uni0930_uni094D_uni0902.abvs uni0930_uni094D.abvs uni0930_uni094D_uni0902.abvs];} abvs24;lookup abvs25 {    sub [uni0940 uni0946 uni0947 uni0948 uni094A uni094B uni094C uni0940.pres] [uni0901 uni0945]' by [g345 g344];} abvs25;lookup abvs26 {    sub uni0908 uni0902 by uni0908_uni0902;    sub uni0910 uni0902 by uni0910_uni0902;    sub uni0913 uni0902 by uni0913_uni0902;    sub uni0914 uni0902 by uni0914_uni0902;} abvs26;
-} abvs;
-
-feature akhn {
-script deva; # Devanagarilookup akhn1 {    sub uni0919 uni094D uni0915 uni094D uni0937 uni094D uni092F by uni0919_uni094D_uni0915_uni094D_uni0937_uni094D_uni092F;    sub uni0919 uni094D uni0915 uni094D uni092F by uni0919_uni094D_uni0915_uni094D_uni092F;    sub uni0919 uni094D uni0916 uni094D uni092F by uni0919_uni094D_uni0916_uni094D_uni092F;    sub uni0919 uni094D uni0917 uni094D uni092F by uni0919_uni094D_uni0917_uni094D_uni092F;    sub uni0919 uni094D uni0918 uni094D uni092F by uni0919_uni094D_uni0918_uni094D_uni092F;    sub uni0919 uni094D uni092E uni094D uni092F by uni0919_uni094D_uni092E_uni094D_uni092F;    sub uni091F uni094D uni091F uni094D uni092F by uni091F_uni094D_uni091F_uni094D_uni092F;    sub uni091F uni094D uni0920 uni094D uni092F by uni091F_uni094D_uni0920_uni094D_uni092F;    sub uni0920 uni094D uni0920 uni094D uni092F by uni0920_uni094D_uni0920_uni094D_uni092F;    sub uni0921 uni094D uni0921 uni094D uni092F by uni0921_uni094D_uni0921_uni094D_uni092F;    sub uni0921 uni094D uni0922 uni094D uni092F by uni0921_uni094D_uni0922_uni094D_uni092F;    sub uni0922 uni094D uni0922 uni094D uni092F by uni0922_uni094D_uni0922_uni094D_uni092F;    sub uni0926 uni094D uni0930 uni094D uni092F by uni0926_uni094D_uni0930_uni094D_uni092F;    sub uni0926 uni094D uni0935 uni094D uni092F by uni0926_uni094D_uni0935_uni094D_uni092F;    sub uni0926 uni094D uni0928 uni094D uni092F by uni0926_uni094D_uni0928_uni094D_uni092F;    sub uni0926 uni094D uni092C uni094D uni092F by uni0926_uni094D_uni092C_uni094D_uni092F;    sub uni0926 uni094D uni092D uni094D uni092F by uni0926_uni094D_uni092D_uni094D_uni092F;    sub uni0926 uni094D uni0918 uni094D uni092F by uni0926_uni094D_uni0918_uni094D_uni092F;    sub uni0926 uni094D uni0926 uni094D uni092F by uni0926_uni094D_uni0926_uni094D_uni092F;    sub uni0926 uni094D uni0917 uni094D uni092F by uni0926_uni094D_uni0917_uni094D_uni092F;    sub uni0926 uni094D uni0927 uni094D uni092F by uni0926_uni094D_uni0927_uni094D_uni092F;    sub uni0937 uni094D uni091F uni094D uni092F by uni0937_uni094D_uni091F_uni094D_uni092F;    sub uni0937 uni094D uni0920 uni094D uni092F by uni0937_uni094D_uni0920_uni094D_uni092F;} akhn1;lookup akhn2 {    sub uni0915 uni094D uni0937 by uni0915_uni094D_uni0937;    sub uni091C uni094D uni091E by uni091C_uni094D_uni091E;} akhn2;
-} akhn;
-
-feature blwf {
- script deva; # Devanagari    sub uni0930 uni094D by g133;
-} blwf;
-
-feature blws {
-script deva; # Devanagarilookup blws20 {    sub uni0926 uni0943 by uni0926_uni0943;    sub uni0939 uni0943 by uni0939_uni0943;    sub g133 uni0941 by g193;    sub g133 uni0942 by g194;} blws20;lookup blws21 {    sub g134' uni0943 by g216;} blws21;lookup blws27 {    sub @blws4 @blws3' by [uni0941.blws uni0942.blws uni0943.blws uni0944.blws uni094D.blws uni0962.blws uni0963.blws g325 g323 g324];} blws27;lookup blws28 {    sub @blws5 [uni0941 uni0942]' by [g195 g196];} blws28;lookup blws29 {    sub @blws6 [uni0941 uni0942]' by [g336 g337];} blws29;lookup blws30 {    sub @blws2 @blws1' by [g329 g330 g334 g335 g333 g331 g332];} blws30;
-} blws;
-
-feature cpsp {
-# automatic
-pos @Uppercase <5 0 10 0>;
-} cpsp;
-
-feature frac {
-# automatic
-sub one slash four by onequarter;
-sub one slash two by onehalf;
-sub three slash four by threequarters;
-} frac;
-
-feature half {
-script deva; # Devanagarilookup half3 {    sub uni0930 uni094D uni200D by uni0930_uni094D_uni200D;    sub uni0931 uni094D by uni0930_uni094D_uni200D;} half3;lookup half7 {    sub uni0915 uni094D by uni0915_uni094D;    sub uni0916 uni094D by uni0916_uni094D;    sub uni0917 uni094D by uni0917_uni094D;    sub uni0918 uni094D by uni0918_uni094D;    sub uni0919 uni094D by uni0919_uni094D;    sub uni091A uni094D by uni091A_uni094D;    sub uni091B uni094D by uni091B_uni094D;    sub uni091C uni094D by uni091C_uni094D;    sub uni091D uni094D by uni091D_uni094D;    sub uni091E uni094D by uni091E_uni094D;    sub uni091F uni094D by uni091F_uni094D;    sub uni0920 uni094D by uni0920_uni094D;    sub uni0921 uni094D by uni0921_uni094D;    sub uni0922 uni094D by uni0922_uni094D;    sub uni0923 uni094D by uni0923_uni094D;    sub uni0924 uni094D by uni0924_uni094D;    sub uni0925 uni094D by uni0925_uni094D;    sub uni0926 uni094D by uni0926_uni094D;    sub uni0927 uni094D by uni0927_uni094D;    sub uni0928 uni094D by uni0928_uni094D;    sub uni0929 uni094D by uni0929_uni094D;    sub uni092A uni094D by uni092A_uni094D;    sub uni092B uni094D by uni092B_uni094D;    sub uni092C uni094D by uni092C_uni094D;    sub uni092D uni094D by uni092D_uni094D;    sub uni092E uni094D by uni092E_uni094D;    sub uni092F uni094D by uni092F_uni094D;    sub uni0931 uni094D by uni0930_uni094D_uni200D;    sub uni0932 uni094D by uni0932_uni094D;    sub uni0933 uni094D by uni0933_uni094D;    sub uni0934 uni094D by uni0934_uni094D;    sub uni0935 uni094D by uni0935_uni094D;    sub uni0936 uni094D by uni0936_uni094D;    sub uni0937 uni094D by uni0937_uni094D;    sub uni0938 uni094D by uni0938_uni094D;    sub uni0939 uni094D by uni0939_uni094D;    sub uni0958 uni094D by uni0958_uni094D;    sub uni0959 uni094D by uni0959_uni094D;    sub uni095A uni094D by uni095A_uni094D;    sub uni095B uni094D by uni095B_uni094D;    sub uni095E uni094D by uni095E_uni094D;    sub uni0915_uni094D_uni0937 uni094D by uni0915_uni094D_uni0937_uni094D;    sub uni091C_uni094D_uni091E uni094D by uni091C_uni094D_uni091E_uni094D;} half7;lookup half8 {    sub uni0915_uni094D g133 by g378;    sub uni091F_uni094D g133 by g374;    sub uni0920_uni094D g133 by g375;    sub uni0921_uni094D g133 by g376;    sub uni0922_uni094D g133 by g377;    sub uni092B_uni094D g133 by g379;} half8;lookup half9 {    sub uni0929 uni094D by uni0929_uni094D;    sub uni0958 uni094D by uni0958_uni094D;    sub uni0959 uni094D by uni0959_uni094D;    sub uni095A uni094D by uni095A_uni094D;    sub uni095B uni094D by uni095B_uni094D;    sub uni095E uni094D by uni095E_uni094D;} half9;
-} half;
-
-feature liga {
-sub f f i by ffi;
-sub f f l by ffl;
-sub f f by ff;
-sub f i by fi;
-sub f l by fl;
-} liga;
-
-feature nukt {
- script deva; # Devanagari    sub uni0915 uni093C by uni0958;    sub uni0916 uni093C by uni0959;    sub uni0917 uni093C by uni095A;    sub uni091C uni093C by uni095B;    sub uni0921 uni093C by uni095C;    sub uni0922 uni093C by uni095D;    sub uni0928 uni093C by uni0929;    sub uni092B uni093C by uni095E;    sub uni092F uni093C by uni095F;    sub uni0930 uni093C by uni0931;    sub uni0933 uni093C by uni0934;
-} nukt;
-
-feature pres {
-script deva; # Devanagarilookup pres1 {    sub uni0919 uni094D uni0915 uni094D uni0937 uni094D uni092F by uni0919_uni094D_uni0915_uni094D_uni0937_uni094D_uni092F;    sub uni0919 uni094D uni0915 uni094D uni092F by uni0919_uni094D_uni0915_uni094D_uni092F;    sub uni0919 uni094D uni0916 uni094D uni092F by uni0919_uni094D_uni0916_uni094D_uni092F;    sub uni0919 uni094D uni0917 uni094D uni092F by uni0919_uni094D_uni0917_uni094D_uni092F;    sub uni0919 uni094D uni0918 uni094D uni092F by uni0919_uni094D_uni0918_uni094D_uni092F;    sub uni0919 uni094D uni092E uni094D uni092F by uni0919_uni094D_uni092E_uni094D_uni092F;    sub uni091F uni094D uni091F uni094D uni092F by uni091F_uni094D_uni091F_uni094D_uni092F;    sub uni091F uni094D uni0920 uni094D uni092F by uni091F_uni094D_uni0920_uni094D_uni092F;    sub uni0920 uni094D uni0920 uni094D uni092F by uni0920_uni094D_uni0920_uni094D_uni092F;    sub uni0921 uni094D uni0921 uni094D uni092F by uni0921_uni094D_uni0921_uni094D_uni092F;    sub uni0921 uni094D uni0922 uni094D uni092F by uni0921_uni094D_uni0922_uni094D_uni092F;    sub uni0922 uni094D uni0922 uni094D uni092F by uni0922_uni094D_uni0922_uni094D_uni092F;    sub uni0926 uni094D uni0930 uni094D uni092F by uni0926_uni094D_uni0930_uni094D_uni092F;    sub uni0926 uni094D uni0935 uni094D uni092F by uni0926_uni094D_uni0935_uni094D_uni092F;    sub uni0926 uni094D uni0928 uni094D uni092F by uni0926_uni094D_uni0928_uni094D_uni092F;    sub uni0926 uni094D uni092C uni094D uni092F by uni0926_uni094D_uni092C_uni094D_uni092F;    sub uni0926 uni094D uni092D uni094D uni092F by uni0926_uni094D_uni092D_uni094D_uni092F;    sub uni0926 uni094D uni0918 uni094D uni092F by uni0926_uni094D_uni0918_uni094D_uni092F;    sub uni0926 uni094D uni0926 uni094D uni092F by uni0926_uni094D_uni0926_uni094D_uni092F;    sub uni0926 uni094D uni0917 uni094D uni092F by uni0926_uni094D_uni0917_uni094D_uni092F;    sub uni0926 uni094D uni0927 uni094D uni092F by uni0926_uni094D_uni0927_uni094D_uni092F;    sub uni0937 uni094D uni091F uni094D uni092F by uni0937_uni094D_uni091F_uni094D_uni092F;    sub uni0937 uni094D uni0920 uni094D uni092F by uni0937_uni094D_uni0920_uni094D_uni092F;} pres1;lookup pres12 {    sub uni091C_uni094D uni091C_uni094D by g272;    sub uni0924_uni094D uni0924_uni094D by g183;} pres12;lookup pres13 {    sub uni0915_uni094D uni0915 by g217;    sub uni0915_uni094D uni0924 by g218;    sub uni0915_uni094D uni0932 by g219;    sub uni0915_uni094D uni0935 by g220;    sub uni0917_uni094D uni0928 by g221;    sub uni0919_uni094D uni0915 by g222;    sub uni0919_uni094D uni0916 by g223;    sub uni0919_uni094D uni0917 by g224;    sub uni0919_uni094D uni0918 by g225;    sub uni0919_uni094D uni092E by g226;    sub uni0919_uni094D uni0915_uni094D_uni0937 by g227;    sub uni091A_uni094D uni091A by g228;    sub uni091B_uni094D uni0935 by g229;    sub uni091C_uni094D uni091C by g230;    sub uni091E_uni094D uni091A by g231;    sub uni091E_uni094D uni091C by g232;    sub uni091F_uni094D uni091F by g233;    sub uni091F_uni094D uni0920 by g234;    sub uni091F_uni094D uni092F by g235;    sub uni091F_uni094D uni0935 by g236;    sub uni0920_uni094D uni0920 by g237;    sub uni0920_uni094D uni092F by g238;    sub uni0921_uni094D uni0921 by g239;    sub uni0921_uni094D uni0922 by g240;    sub uni0921_uni094D uni092F by g241;    sub uni0922_uni094D uni0922 by g242;    sub uni0922_uni094D uni092F by g243;    sub uni0924_uni094D uni0924 by g136;    sub uni0926_uni094D uni0917 by g244;    sub uni0926_uni094D uni0918 by g245;    sub uni0926_uni094D uni0926 by g246;    sub uni0926_uni094D uni0927 by g247;    sub uni0926_uni094D uni0928 by g248;    sub uni0926_uni094D uni092C by g249;    sub uni0926_uni094D uni092D by g250;    sub uni0926_uni094D uni092E by g251;    sub uni0926_uni094D uni092F by g252;    sub uni0926_uni094D uni0935 by g253;    sub uni0928_uni094D uni0928 by g254;    sub uni092A_uni094D uni0924 by g255;    sub uni092A_uni094D uni0932 by g256;    sub uni092B_uni094D uni0932 by g257;    sub uni0932_uni094D uni0932 by g258;    sub uni0936_uni094D uni091A by g259;    sub uni0936_uni094D uni0928 by g260;    sub uni0936_uni094D uni0932 by g261;    sub uni0936_uni094D uni0935 by g262;    sub uni0937_uni094D uni091F by g263;    sub uni0937_uni094D uni0920 by g264;    sub uni0938_uni094D g206 by g271;    sub uni0939_uni094D uni0923 by g265;    sub uni0939_uni094D uni0928 by g266;    sub uni0939_uni094D uni092E by g267;    sub uni0939_uni094D uni092F by g268;    sub uni0939_uni094D uni0932 by g269;    sub uni0939_uni094D uni0935 by g270;    sub g181 uni091A by g259;    sub g181 uni0928 by g260;    sub g181 uni0932 by g261;    sub g181 uni0935 by g262;} pres13;lookup pres14 {    sub uni093F' @pres1 by uni093F.pres;} pres14;lookup pres15 {    sub uni093F' [uni0916 uni0959 g202 g235 g238 g241 g243] by g167;    sub uni093F' @pres3 @pres4 by g167;} pres15;lookup pres16 {    sub @pres2 [uni0940 uni0940_uni0902 uni0940_uni0930_uni094D uni0940_uni0930_uni094D_uni0902]' by [uni0940.pres uni0940.pres_uni0902 uni0940.pres_uni0930_uni094D uni0940.pres_uni0930_uni094D_uni0902];} pres16;
-} pres;
-
-feature psts {
-script deva; # Devanagarilookup psts22 {    sub uni0930 uni0941 by uni0930_uni0941;    sub uni0930 uni0942 by uni0930_uni0942;    sub uni0939 uni0941 by uni0939_uni0941;    sub uni0939 uni0942 by uni0939_uni0942;} psts22;lookup psts23 {    sub g133' @psts1 by g306;} psts23;lookup psts31 {    sub [uni0941.blws uni0942.blws g325 uni0943.blws uni0944.blws uni094D.blws] [uni0901 uni0902 uni0945 uni0930_uni094D uni0930_uni094D_uni0902]' by [uni0901.abvs uni0902.abvs uni0945.abvs uni0930_uni094D.abvs uni0930_uni094D_uni0902.abvs];} psts31;lookup psts32 {    sub [uni0930_uni0941 uni0930_uni0942] uni0902' by uni0902.abvs;} psts32;
-} psts;
-
-feature rphf {
- script deva; # Devanagari    sub uni0930 uni094D by uni0930_uni094D;
-} rphf;
-
-feature vatu {
-script deva; # Devanagari
-lookup vatu8 {
-    sub uni0915_uni094D g133 by g378;
-    sub uni091F_uni094D g133 by g374;
-    sub uni0920_uni094D g133 by g375;
-    sub uni0921_uni094D g133 by g376;
-    sub uni0922_uni094D g133 by g377;
-    sub uni092B_uni094D g133 by g379;
-} vatu8;
-lookup vatu10 {
-    sub uni0915 g133 by g201;
-    sub uni0916 g133 by g202;
-    sub uni0917 g133 by g203;
-    sub uni0918 g133 by g277;
-    sub uni091A g133 by g278;
-    sub uni091C g133 by g204;
-    sub uni091D g133 by g205;
-    sub uni091E g133 by g290;
-    sub uni0923 g133 by g291;
-    sub uni0924 g133 by g206;
-    sub uni0925 g133 by g279;
-    sub uni0926 g133 by g207;
-    sub uni0927 g133 by g280;
-    sub uni0928 g133 by g281;
-    sub uni092A g133 by g208;
-    sub uni092B g133 by g209;
-    sub uni092C g133 by g210;
-    sub uni092D g133 by g211;
-    sub uni092E g133 by g212;
-    sub uni092F g133 by g292;
-    sub uni0932 g133 by g282;
-    sub uni0935 g133 by g213;
-    sub uni0936 g133 by g134;
-    sub uni0937 g133 by g293;
-    sub uni0938 g133 by g214;
-    sub uni0939 g133 by g215;
-    sub uni095E g133 by g135;
-    sub uni0915_uni094D_uni0937 g133 by g294;
-    sub uni091C_uni094D_uni091E g133 by g295;
-} vatu10;
-lookup vatu11 {
-    sub uni0924_uni094D g133 by g182;
-    sub uni0936_uni094D g133 by g181;
-} vatu11;
-} vatu;
-
