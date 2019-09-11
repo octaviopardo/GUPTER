@@ -113,6 +113,11 @@ value = 1;
 {
 name = "Use Line Breaks";
 value = 1;
+},
+{
+name = fsType;
+value = (
+);
 }
 );
 date = "2014-07-28 00:00:00 +0000";
