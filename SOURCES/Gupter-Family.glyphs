@@ -3,10 +3,6 @@
 DisplayStrings = (
 noHOmGLD,
 "¡!",
-"/afii61664",
-"",
-"",
-"",
 "/uni0905/uni0904",
 "",
 "1non¹Eh2²o³H/foursuperior no½¼¾\012nn¹no¹onh¹HH¹HHO¹OOHH¹H\012nn²no²onh²HH²HHO²OOHH²H\012nn³no³onh³HH³HHO³OOHH³H\012nn/foursuperior no/foursuperior onh/foursuperior HH/foursuperior HHO/foursuperior OOHH/foursuperior H",
@@ -14,7 +10,7 @@ noHOmGLD,
 "ªº",
 "nnµuni\012nnunouoon\012nnµnoµoon\012nnµnoµoon",
 "// /backslash  /fraction/divisionslash \0121//2 1/backslash 2 1FOOD 1/divisionslash 2",
-"/ff/ffi/ffl/fi/fl"
+"/ff  /ffi  /ffl  /fi  /fl \012ff ffi ffl fi fl"
 );
 classes = (
 {
@@ -574,11 +570,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 939;
+value = 1000;
 },
 {
 name = winDescent;
-value = 419;
+value = 550;
 },
 {
 name = underlinePosition;
@@ -651,11 +647,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 939;
+value = 1000;
 },
 {
 name = winDescent;
-value = 419;
+value = 550;
 },
 {
 name = underlinePosition;
@@ -101523,8 +101519,10 @@ b = -15;
 };
 "@MMK_L_f" = {
 "@MMK_R_a" = -20;
+"@MMK_R_f" = -55;
 "@MMK_R_hyphen" = -15;
-"@MMK_R_i" = -10;
+"@MMK_R_i" = -35;
+"@MMK_R_l" = -10;
 "@MMK_R_n" = -15;
 "@MMK_R_o" = -23;
 "@MMK_R_p" = -20;
@@ -102439,8 +102437,10 @@ b = -18.75;
 };
 "@MMK_L_f" = {
 "@MMK_R_a" = -25;
+"@MMK_R_f" = -22;
 "@MMK_R_hyphen" = -18.75;
-"@MMK_R_i" = -12.5;
+"@MMK_R_i" = -18;
+"@MMK_R_l" = -3;
 "@MMK_R_n" = -18.75;
 "@MMK_R_o" = -28.75;
 "@MMK_R_p" = -25;
