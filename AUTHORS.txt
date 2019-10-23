@@ -5,5 +5,4 @@
 # Names should be added to this file as:
 # Name or Organization <email address>
 
-Modular Infotech, Pune, INDIA
 Octavio Pardo <octavio@ashler.design>
