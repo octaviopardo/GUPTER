@@ -1,7 +1,7 @@
 {
 .appVersion = "1230";
 DisplayStrings = (
-noHOmGLD,
+neoHFOmGLD,
 "¡!",
 "/uni0905/uni0904",
 "1non¹Eh2²o³H/foursuperior no½¼¾\012nn¹no¹onh¹HH¹HHO¹OOHH¹H\012nn²no²onh²HH²HHO²OOHH²H\012nn³no³onh³HH³HHO³OOHH³H\012nn/foursuperior no/foursuperior onh/foursuperior HH/foursuperior HHO/foursuperior OOHH/foursuperior H",
@@ -139,7 +139,8 @@ value = 1;
 }
 );
 date = "2019-09-11 17:53:55 +0000";
-designer = "Modular Infotech";
+designer = "Octavio Pardo";
+designerURL = www.octaviopardo.com;
 disablesNiceNames = 1;
 familyName = Gupter;
 featurePrefixes = (
@@ -633,8 +634,8 @@ position = "{-1720, 674}";
 }
 );
 horizontalStems = (
-24,
-58
+32,
+42
 );
 id = "B1D0FA45-0BED-409D-9800-57F37CCD9690";
 verticalStems = (
@@ -643,7 +644,7 @@ verticalStems = (
 78
 );
 weight = Light;
-weightValue = 0;
+weightValue = 66;
 xHeight = 447;
 },
 {
@@ -721,6 +722,7 @@ verticalStems = (
 126
 );
 weight = Bold;
+weightValue = 108;
 xHeight = 475;
 }
 );
@@ -101734,22 +101736,23 @@ width = 957;
 );
 instances = (
 {
-interpolationWeight = 0;
+interpolationWeight = 66;
 instanceInterpolations = {
 "B1D0FA45-0BED-409D-9800-57F37CCD9690" = 1;
 };
 name = Regular;
 },
 {
-interpolationWeight = 40;
+interpolationWeight = 92;
 instanceInterpolations = {
-"B1D0FA45-0BED-409D-9800-57F37CCD9690" = 0.6;
-"EA62F474-A0CE-4CDB-8144-A83B4E00D785" = 0.4;
+"B1D0FA45-0BED-409D-9800-57F37CCD9690" = 0.38095;
+"EA62F474-A0CE-4CDB-8144-A83B4E00D785" = 0.61905;
 };
 name = Medium;
 weightClass = Medium;
 },
 {
+interpolationWeight = 108;
 instanceInterpolations = {
 "EA62F474-A0CE-4CDB-8144-A83B4E00D785" = 1;
 };
@@ -103594,7 +103597,6 @@ yen = -18.75;
 };
 };
 };
-manufacturer = "Modular Infotech";
 unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
