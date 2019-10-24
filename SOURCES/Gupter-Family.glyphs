@@ -637,13 +637,13 @@ horizontalStems = (
 32,
 42
 );
+iconName = Light;
 id = "B1D0FA45-0BED-409D-9800-57F37CCD9690";
 verticalStems = (
 66,
 72,
 78
 );
-weight = Light;
 weightValue = 66;
 xHeight = 447;
 },
@@ -711,8 +711,8 @@ position = "{318, 682}";
 }
 );
 horizontalStems = (
-45,
-51,
+48,
+54,
 75
 );
 id = "EA62F474-A0CE-4CDB-8144-A83B4E00D785";
@@ -101736,17 +101736,18 @@ width = 957;
 );
 instances = (
 {
-interpolationWeight = 66;
+interpolationWeight = 70;
 instanceInterpolations = {
-"B1D0FA45-0BED-409D-9800-57F37CCD9690" = 1;
+"B1D0FA45-0BED-409D-9800-57F37CCD9690" = 0.90476;
+"EA62F474-A0CE-4CDB-8144-A83B4E00D785" = 0.09524;
 };
 name = Regular;
 },
 {
-interpolationWeight = 92;
+interpolationWeight = 84;
 instanceInterpolations = {
-"B1D0FA45-0BED-409D-9800-57F37CCD9690" = 0.38095;
-"EA62F474-A0CE-4CDB-8144-A83B4E00D785" = 0.61905;
+"B1D0FA45-0BED-409D-9800-57F37CCD9690" = 0.57143;
+"EA62F474-A0CE-4CDB-8144-A83B4E00D785" = 0.42857;
 };
 name = Medium;
 weightClass = Medium;
