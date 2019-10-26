@@ -1,7 +1,7 @@
 {
 .appVersion = "1230";
 DisplayStrings = (
-neoHFOmGLD,
+"neoHFOmGLD/dotaccent ij",
 "¡!",
 "/uni0905/uni0904",
 "1non¹Eh2²o³H/foursuperior no½¼¾\012nn¹no¹onh¹HH¹HHO¹OOHH¹H\012nn²no²onh²HH²HHO²OOHH²H\012nn³no³onh³HH³HHO³OOHH³H\012nn/foursuperior no/foursuperior onh/foursuperior HH/foursuperior HHO/foursuperior OOHH/foursuperior H",
@@ -10818,6 +10818,12 @@ layerId = "EA62F474-A0CE-4CDB-8144-A83B4E00D785";
 width = 300;
 },
 {
+anchors = (
+{
+name = _top;
+position = "{126, 502}";
+}
+);
 background = {
 paths = (
 {
@@ -10924,6 +10930,15 @@ paths = (
 {
 closed = 1;
 nodes = (
+"139 1 OFFCURVE",
+"139 1 OFFCURVE",
+"240 -4 CURVE",
+"240 27 LINE",
+"180 29 OFFCURVE",
+"171 42 OFFCURVE",
+"171 100 CURVE",
+"171 454 LINE",
+"156 459 LINE",
 "36 438 LINE",
 "36 408 LINE",
 "95 408 OFFCURVE",
@@ -10933,16 +10948,7 @@ nodes = (
 "105 42 OFFCURVE",
 "96 29 OFFCURVE",
 "36 27 CURVE",
-"36 -4 LINE",
-"139 1 OFFCURVE",
-"139 1 OFFCURVE",
-"240 -4 CURVE",
-"240 27 LINE",
-"180 29 OFFCURVE",
-"171 42 OFFCURVE",
-"171 100 CURVE",
-"171 454 LINE",
-"156 459 LINE"
+"36 -4 LINE"
 );
 }
 );
@@ -10960,6 +10966,15 @@ paths = (
 {
 closed = 1;
 nodes = (
+"138 3 OFFCURVE",
+"156 3 OFFCURVE",
+"276 -3 CURVE",
+"276 37 LINE",
+"203 40 OFFCURVE",
+"201 61 OFFCURVE",
+"201 123 CURVE",
+"201 474 LINE",
+"178 483 LINE",
 "18 452 LINE",
 "18 416 LINE",
 "91 414 OFFCURVE",
@@ -10969,16 +10984,7 @@ nodes = (
 "93 61 OFFCURVE",
 "91 40 OFFCURVE",
 "18 37 CURVE",
-"18 -3 LINE",
-"138 3 OFFCURVE",
-"156 3 OFFCURVE",
-"276 -3 CURVE",
-"276 37 LINE",
-"203 40 OFFCURVE",
-"201 61 OFFCURVE",
-"201 123 CURVE",
-"201 474 LINE",
-"178 483 LINE"
+"18 -3 LINE"
 );
 }
 );
@@ -11133,7 +11139,7 @@ components = (
 {
 alignment = -1;
 name = dotaccent;
-transform = "{1, 0, 0, 1, -3, -20}";
+transform = "{1, 0, 0, 1, -4, -20}";
 }
 );
 layerId = "EA62F474-A0CE-4CDB-8144-A83B4E00D785";
