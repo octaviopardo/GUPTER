@@ -1,7 +1,7 @@
 {
 .appVersion = "1230";
 DisplayStrings = (
-"neoHFOmGLD/dotaccent ij",
+"neoHFOmGLD/dotaccent/dotaccent/idotless ij",
 "¡!",
 "/uni0905/uni0904",
 "1non¹Eh2²o³H/foursuperior no½¼¾\012nn¹no¹onh¹HH¹HHO¹OOHH¹H\012nn²no²onh²HH²HHO²OOHH²H\012nn³no³onh³HH³HHO³OOHH³H\012nn/foursuperior no/foursuperior onh/foursuperior HH/foursuperior HHO/foursuperior OOHH/foursuperior H",
@@ -10818,12 +10818,6 @@ layerId = "EA62F474-A0CE-4CDB-8144-A83B4E00D785";
 width = 300;
 },
 {
-anchors = (
-{
-name = _top;
-position = "{126, 502}";
-}
-);
 background = {
 paths = (
 {
