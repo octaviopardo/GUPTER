@@ -1,10 +1,9 @@
 {
 .appVersion = "1230";
 DisplayStrings = (
-noHOmGLD,
+"neoHFOmGLD/dotaccent/dotaccent/idotless ij",
 "¡!",
 "/uni0905/uni0904",
-"",
 "1non¹Eh2²o³H/foursuperior no½¼¾\012nn¹no¹onh¹HH¹HHO¹OOHH¹H\012nn²no²onh²HH²HHO²OOHH²H\012nn³no³onh³HH³HHO³OOHH³H\012nn/foursuperior no/foursuperior onh/foursuperior HH/foursuperior HHO/foursuperior OOHH/foursuperior H",
 "1ºnº2ºnªEh2ªHºoªºHªºnHºH¾\012nnºnoºonhºHHºHHOºOH\012HºH11ºH2ºH3ºH4ºH5ºH6ºH7ºH8ºH9ºH\012nnªnoªonhªHHªHHOªOH\012HªH11ªH2ªH3ªH4ªH5ªH6ªH7ªH8ªH9ªH\012",
 "ªº",
@@ -140,7 +139,8 @@ value = 1;
 }
 );
 date = "2019-09-11 17:53:55 +0000";
-designer = "Modular Infotech";
+designer = "Octavio Pardo";
+designerURL = www.octaviopardo.com;
 disablesNiceNames = 1;
 familyName = Gupter;
 featurePrefixes = (
@@ -634,17 +634,17 @@ position = "{-1720, 674}";
 }
 );
 horizontalStems = (
-24,
-58
+32,
+42
 );
+iconName = Light;
 id = "B1D0FA45-0BED-409D-9800-57F37CCD9690";
 verticalStems = (
 66,
 72,
 78
 );
-weight = Light;
-weightValue = 0;
+weightValue = 66;
 xHeight = 447;
 },
 {
@@ -711,8 +711,8 @@ position = "{318, 682}";
 }
 );
 horizontalStems = (
-45,
-51,
+48,
+54,
 75
 );
 id = "EA62F474-A0CE-4CDB-8144-A83B4E00D785";
@@ -722,6 +722,7 @@ verticalStems = (
 126
 );
 weight = Bold;
+weightValue = 108;
 xHeight = 475;
 }
 );
@@ -10923,6 +10924,15 @@ paths = (
 {
 closed = 1;
 nodes = (
+"139 1 OFFCURVE",
+"139 1 OFFCURVE",
+"240 -4 CURVE",
+"240 27 LINE",
+"180 29 OFFCURVE",
+"171 42 OFFCURVE",
+"171 100 CURVE",
+"171 454 LINE",
+"156 459 LINE",
 "36 438 LINE",
 "36 408 LINE",
 "95 408 OFFCURVE",
@@ -10932,16 +10942,7 @@ nodes = (
 "105 42 OFFCURVE",
 "96 29 OFFCURVE",
 "36 27 CURVE",
-"36 -4 LINE",
-"139 1 OFFCURVE",
-"139 1 OFFCURVE",
-"240 -4 CURVE",
-"240 27 LINE",
-"180 29 OFFCURVE",
-"171 42 OFFCURVE",
-"171 100 CURVE",
-"171 454 LINE",
-"156 459 LINE"
+"36 -4 LINE"
 );
 }
 );
@@ -10959,6 +10960,15 @@ paths = (
 {
 closed = 1;
 nodes = (
+"138 3 OFFCURVE",
+"156 3 OFFCURVE",
+"276 -3 CURVE",
+"276 37 LINE",
+"203 40 OFFCURVE",
+"201 61 OFFCURVE",
+"201 123 CURVE",
+"201 474 LINE",
+"178 483 LINE",
 "18 452 LINE",
 "18 416 LINE",
 "91 414 OFFCURVE",
@@ -10968,16 +10978,7 @@ nodes = (
 "93 61 OFFCURVE",
 "91 40 OFFCURVE",
 "18 37 CURVE",
-"18 -3 LINE",
-"138 3 OFFCURVE",
-"156 3 OFFCURVE",
-"276 -3 CURVE",
-"276 37 LINE",
-"203 40 OFFCURVE",
-"201 61 OFFCURVE",
-"201 123 CURVE",
-"201 474 LINE",
-"178 483 LINE"
+"18 -3 LINE"
 );
 }
 );
@@ -11132,7 +11133,7 @@ components = (
 {
 alignment = -1;
 name = dotaccent;
-transform = "{1, 0, 0, 1, -3, -20}";
+transform = "{1, 0, 0, 1, -4, -20}";
 }
 );
 layerId = "EA62F474-A0CE-4CDB-8144-A83B4E00D785";
@@ -101735,22 +101736,24 @@ width = 957;
 );
 instances = (
 {
-interpolationWeight = 0;
+interpolationWeight = 70;
 instanceInterpolations = {
-"B1D0FA45-0BED-409D-9800-57F37CCD9690" = 1;
+"B1D0FA45-0BED-409D-9800-57F37CCD9690" = 0.90476;
+"EA62F474-A0CE-4CDB-8144-A83B4E00D785" = 0.09524;
 };
 name = Regular;
 },
 {
-interpolationWeight = 40;
+interpolationWeight = 84;
 instanceInterpolations = {
-"B1D0FA45-0BED-409D-9800-57F37CCD9690" = 0.6;
-"EA62F474-A0CE-4CDB-8144-A83B4E00D785" = 0.4;
+"B1D0FA45-0BED-409D-9800-57F37CCD9690" = 0.57143;
+"EA62F474-A0CE-4CDB-8144-A83B4E00D785" = 0.42857;
 };
 name = Medium;
 weightClass = Medium;
 },
 {
+interpolationWeight = 108;
 instanceInterpolations = {
 "EA62F474-A0CE-4CDB-8144-A83B4E00D785" = 1;
 };
@@ -103595,7 +103598,6 @@ yen = -18.75;
 };
 };
 };
-manufacturer = "Modular Infotech";
 unitsPerEm = 1000;
 userData = {
 GSDimensionPlugin.Dimensions = {
